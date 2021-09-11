@@ -83,6 +83,7 @@ footer{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     line-height: 7px;
 }
 .footer .footer-head{
@@ -110,4 +111,6 @@ footer{
     padding: 5px;
     text-align: center;
     color: aliceblue;
+    /*border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;*/
 }
