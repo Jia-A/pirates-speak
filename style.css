@@ -26,7 +26,7 @@ textarea {
     height: 6vh;
     width: 80%;
     display: block;
-    margin: 20px;
+    margin: 15px;
     border-color: var(--secondary-color);
     padding: 1rem;
     border-radius: 5px;
@@ -49,6 +49,7 @@ textarea {
     width: 80%;
     border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 5px;
     font-size: large;
     text-align: center;
 }
@@ -66,7 +67,7 @@ textarea {
 
 }
 
-footer {
+/*footer {
     background-color: var(--primary-color);
     height: 80px;
     margin-top: 10px;
@@ -75,11 +76,27 @@ footer {
     text-align: center;
     line-height: 3px;
     color: aliceblue;
+}*/
+footer{
+    background-color: var(--primary-color);
+    padding: 1.45rem 0.5rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    line-height: 7px;
+}
+.footer .footer-head{
+    font-weight: bold;
+}
+
+
+#text-ip{
+    margin-top: 0px;
 }
 
 .hero {
 
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
 .hero-image {
